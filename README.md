@@ -351,7 +351,7 @@ A collection of smaller projects and experiments, including a clock, stopwatch, 
 
 <!-- Portfolio is optional. Replace its URL with your site, or remove that badge if you do not have one yet. -->
 <p align="center">
-  <a href="https://github.com/MHMDAHMDSYDMHMD"><img src="https://img.shields.io/badge/GitHub-YOUR_GITHUB_USERNAME-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://github.com/MHMDAHMDSYDMHMD"><img src="https://img.shields.io/badge/GitHub-MHMDAHMDSYDMHMD/-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
   <a href="https://www.linkedin.com/in/MHMDAHMDSYDMHMD/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:mohamed.ahmed.sayid.mohamed@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://mhmdahmdsydmhmd.github.io/MHMDAHMDSYDMHMD/"><img src="https://img.shields.io/badge/Portfolio-Website-7C3AED?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio website" /></a>
