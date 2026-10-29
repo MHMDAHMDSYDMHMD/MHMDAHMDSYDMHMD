@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>.NET Backend Developer - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --accent-blue: #2563eb;
+            --accent-purple: #7c3aed;
+            --border-color: #334155;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+        }
+
+        a { color: var(--accent-blue); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        /* Header Section */
+        header {
+            text-align: center;
+            padding: 60px 20px;
+            background: linear-gradient(135deg, #111827 0%, #312e81 50%, #2563eb 100%);
+            border-radius: 0 0 20px 20px;
+            margin-bottom: 40px;
+        }
+        header h1 { font-size: 2.5rem; margin-bottom: 10px; }
+        header p { font-size: 1.2rem; color: #e2e8f0; font-weight: 300; }
+        
+        .badges-container {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .badges-container img { height: 28px; border-radius: 4px; }
+
+        /* Sections */
+        section {
+            background: var(--card-bg);
+            padding: 30px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            border: 1px solid var(--border-color);
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+        }
+        h2 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 10px;
+            color: var(--text-main);
+        }
+        h3 { font-size: 1.3rem; margin: 20px 0 10px; color: var(--accent-blue); }
+        p { margin-bottom: 15px; color: var(--text-muted); }
+        
+        /* Tech Stack Badges */
+        .badge-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 15px;
+        }
+        .badge-group img {
+            height: 28px;
+        }
+
+        /* Table */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+            font-size: 0.9rem;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid var(--border-color);
+        }
+        th { background-color: #0f172a; color: var(--text-main); }
+        td { color: var(--text-muted); }
+
+        /* Projects */
+        .project-card {
+            background: #0f172a;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            border-left: 4px solid var(--accent-purple);
+        }
+        .project-card h4 { font-size: 1.2rem; margin-bottom: 5px; color: var(--text-main); }
+        .project-card .status { font-size: 0.85rem; color: #10b981; margin-bottom: 10px; display: inline-block; }
+        .project-card ul { margin-left: 20px; color: var(--text-muted); margin-bottom: 15px; }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            header h1 { font-size: 1.8rem; }
+            section { padding: 20px; }
+            table { display: block; overflow-x: auto; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>.NET Backend Developer</h1>
+        <p>C# | ASP.NET Core | Backend Engineering</p>
+        <div class="badges-container">
+            <a href="https://github.com/MHMDAHMDSYDMHMD"><img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+            <a href="https://www.linkedin.com/in/mhmdahmdsydmhmd/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+            <a href="mailto:mohamed.ahmed.sayid.mohamed@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+        </div>
+    </header>
+
+    <div class="container">
+        
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I build backend applications with <strong>C# and .NET</strong>, focusing on API development, data access, maintainable code, and understanding how software works beneath the surface.</p>
+            <p>I care about the engineering behind software: runtime behavior, data access, HTTP, networking, security, and system design. Currently strengthening my knowledge of ASP.NET Core internals, software architecture, testing, and system design fundamentals.</p>
+        </section>
+
+        <section id="skills">
+            <h2>Technology Stack</h2>
+            
+            <h3>.NET & Backend Development</h3>
+            <div class="badge-group">
+                <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&labelColor=1F2937&logo=csharp&logoColor=white" alt="C#">
+                <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&labelColor=1F2937&logo=dotnet&logoColor=white" alt=".NET">
+                <img src="https://img.shields.io/badge/ASP.NET_Core-512BD4?style=for-the-badge&labelColor=1F2937&logo=dotnet&logoColor=white" alt="ASP.NET Core">
+                <img src="https://img.shields.io/badge/Entity_Framework_Core-512BD4?style=for-the-badge&labelColor=1F2937&logo=dotnet&logoColor=white" alt="EF Core">
+                <img src="https://img.shields.io/badge/Dapper-512BD4?style=for-the-badge&labelColor=1F2937&logo=dotnet&logoColor=white" alt="Dapper">
+                <img src="https://img.shields.io/badge/REST_APIs-0D9488?style=for-the-badge&labelColor=1F2937" alt="REST APIs">
+                <img src="https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&labelColor=1F2937&logo=graphql&logoColor=white" alt="GraphQL">
+                <img src="https://img.shields.io/badge/JWT_Authentication-000000?style=for-the-badge&labelColor=1F2937&logo=jsonwebtokens&logoColor=white" alt="JWT">
+            </div>
+
+            <h3>Databases & Caching</h3>
+            <div class="badge-group">
+                <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&labelColor=1F2937&logo=mongodb&logoColor=white" alt="MongoDB">
+                <img src="https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&labelColor=1F2937&logo=microsoftsqlserver&logoColor=white" alt="SQL Server">
+                <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&labelColor=1F2937&logo=redis&logoColor=white" alt="Redis">
+            </div>
+
+            <h3>Tools & DevOps</h3>
+            <div class="badge-group">
+                <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&labelColor=1F2937&logo=docker&logoColor=white" alt="Docker">
+                <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&labelColor=1F2937&logo=git&logoColor=white" alt="Git">
+                <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&labelColor=1F2937&logo=github&logoColor=white" alt="GitHub">
+                <img src="https://img.shields.io/badge/JetBrains_Rider-000000?style=for-the-badge&labelColor=1F2937&logo=jetbrains&logoColor=white" alt="Rider">
+                <img src="https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&labelColor=1F2937&logo=visualstudio&logoColor=white" alt="Visual Studio">
+            </div>
+        </section>
+
+        <section id="knowledge">
+            <h2>Engineering Knowledge Levels</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Area</th>
+                        <th>Current Level</th>
+                        <th>Scope</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>C# & .NET</td><td>Hands-on</td><td>C#, .NET, ASP.NET Core, Web API, OOP</td></tr>
+                    <tr><td>Data Access</td><td>Hands-on / expanding</td><td>EF Core, SQL Server, LINQ, Dapper</td></tr>
+                    <tr><td>Backend Engineering</td><td>Hands-on / expanding</td><td>REST APIs, DI, async, middleware</td></tr>
+                    <tr><td>Software Architecture</td><td>Currently developing</td><td>Clean Architecture, patterns, DDD</td></tr>
+                    <tr><td>System Design</td><td>Currently learning</td><td>Scalability, caching, distributed systems</td></tr>
+                    <tr><td>Networking</td><td>Studied foundations</td><td>TCP/IP, Routing, VLANs, DNS, NAT</td></tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="projects">
+            <h2>Featured Projects</h2>
+
+            <div class="project-card">
+                <h4>Cyber Diaries — يوميات سايبر</h4>
+                <span class="status">Status: In planning / development</span>
+                <p>An Arabic, story-driven cybersecurity learning platform designed to teach web application security through practical scenarios.</p>
+                <ul>
+                    <li><strong>Focus:</strong> Cybersecurity education, web application security, practical labs.</li>
+                    <li><strong>Planned Backend:</strong> ASP.NET Core Web API and a modular backend architecture.</li>
+                </ul>
+            </div>
+
+            <div class="project-card">
+                <h4>Clinical Management System</h4>
+                <p>An academic/personal project focused on organizing clinical workflows and related information.</p>
+                <a href="https://github.com/MHMDAHMDSYDMHMD/Clinic-Managemen-System" target="_blank">View Repository &rarr;</a>
+            </div>
+
+            <div class="project-card">
+                <h4>School Management System</h4>
+                <p>An academic/personal project focused on school-related data and management workflows.</p>
+                <!-- ضع رابط المستودع هنا -->
+                <a href="#" target="_blank">View Repository &rarr;</a>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Let's Connect</h2>
+            <p>I'm always open to discussing backend engineering, system design, or potential opportunities.</p>
+            <div class="badge-group" style="margin-top: 20px;">
+                <a href="https://github.com/MHMDAHMDSYDMHMD"><img src="https://img.shields.io/badge/GitHub-MHMDAHMDSYDMHMD-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+                <a href="https://www.linkedin.com/in/mhmdahmdsydmhmd/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+                <a href="mailto:mohamed.ahmed.sayid.mohamed@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+            </div>
+        </section>
+
+    </div>
+</body>
+</html>
