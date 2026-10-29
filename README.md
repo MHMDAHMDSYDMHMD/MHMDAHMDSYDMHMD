@@ -325,7 +325,7 @@ An Arabic, story-driven cybersecurity learning platform designed to teach web ap
 
 - **Focus:** cybersecurity education, web application security, practical labs, and learning experience design.
 - **Planned backend direction:** ASP.NET Core Web API and a modular backend architecture.
-- **Repository:** `YOUR_CYBER_DIARIES_REPOSITORY_URL` (add when public and ready)
+- **Repository:** https://github.com/HeadLess-Collective/Cyber-Diaries
 
 ### Clinical Management System
 
@@ -337,13 +337,13 @@ An academic/personal project focused on organizing clinical workflows and relate
 
 An academic/personal project focused on school-related data and management workflows.
 
-- **Repository:** `YOUR_SCHOOL_SYSTEM_REPOSITORY_URL`
+- **Repository:** https://github.com/MHMDAHMDSYDMHMD/Course-management-system-
 
-### Web Mini-Projects
+### Mini-Projects
 
 A collection of smaller projects and experiments, including a clock, stopwatch, counter, calculator, and a movie-related mini-game.
 
-- **Repository:** `YOUR_WEB_PROJECTS_REPOSITORY_URL`
+- **Repositories:** https://github.com/MHMDAHMDSYDMHMD/AdhkarApp , https://github.com/MHMDAHMDSYDMHMD/Piano_Project , https://github.com/MHMDAHMDSYDMHMD/M-ASHA
 
 ---
 
