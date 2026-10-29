@@ -347,17 +347,6 @@ A collection of smaller projects and experiments, including a clock, stopwatch, 
 
 ---
 
-## GitHub Stats
-
-<!-- Replace YOUR_GITHUB_USERNAME in both image URLs. Remove this section if you prefer a profile without third-party stats cards. -->
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MHMDAHMDSYDMHMD&show_icons=true&hide_border=true&include_all_commits=true&rank_icon=github" alt="GitHub stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MHMDAHMDSYDMHMD&layout=compact&hide_border=true&langs_count=8" alt="Top languages" height="165" />
-</p>
-
----
-
 ## Let's Connect
 
 <!-- Portfolio is optional. Replace its URL with your site, or remove that badge if you do not have one yet. -->
@@ -365,7 +354,7 @@ A collection of smaller projects and experiments, including a clock, stopwatch, 
   <a href="https://github.com/MHMDAHMDSYDMHMD"><img src="https://img.shields.io/badge/GitHub-YOUR_GITHUB_USERNAME-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
   <a href="https://www.linkedin.com/in/MHMDAHMDSYDMHMD/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:mohamed.ahmed.sayid.mohamed@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://MHMDAHMDSYDMHMD.github.io"><img src="https://img.shields.io/badge/Portfolio-Website-7C3AED?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio website" /></a>
+  <a href="https://mhmdahmdsydmhmd.github.io/MHMDAHMDSYDMHMD/"><img src="https://img.shields.io/badge/Portfolio-Website-7C3AED?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio website" /></a>
 </p>
 
 <p align="center">
