@@ -352,8 +352,8 @@ A collection of smaller projects and experiments, including a clock, stopwatch, 
 <!-- Replace YOUR_GITHUB_USERNAME in both image URLs. Remove this section if you prefer a profile without third-party stats cards. -->
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&hide_border=true&include_all_commits=true&rank_icon=github" alt="GitHub stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&hide_border=true&langs_count=8" alt="Top languages" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api?username=MHMDAHMDSYDMHMD&show_icons=true&hide_border=true&include_all_commits=true&rank_icon=github" alt="GitHub stats" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MHMDAHMDSYDMHMD&layout=compact&hide_border=true&langs_count=8" alt="Top languages" height="165" />
 </p>
 
 ---
